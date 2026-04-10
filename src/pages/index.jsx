@@ -11,24 +11,24 @@ import BestSellerPrd from '@/components/products/jewelry/best-seller-prd';
 import JewelryBrands from '@/components/brand/jewelry-brands';
 import InstagramAreaFour from '@/components/instagram/instagram-area-4';
 import FeatureAreaThree from '@/components/features/feature-area-3';
-import FooterTwo from '@/layout/footers/footer-2';
+import Footer from "@/layout/footers/footer";
 
 export default function Home() {
   return (
     <Wrapper>
-      <SEO pageTitle='Home'/>
-      <HeaderFour/>
-      <JewelryBanner/>
+      <SEO pageTitle='Home' />
+      <HeaderFour />
+      <JewelryBanner />
       <FeatureAreaThree />
-      <JewelryShopBanner/>
-      <JewelryAbout/>
-      <PopularProducts/>
-      <ProductArea/>
-      <JewelryCollectionBanner/>
-      <BestSellerPrd/>
-      <JewelryBrands/>
-      <InstagramAreaFour/>
-      <FooterTwo/>
+      <JewelryShopBanner />
+      <JewelryAbout />
+      <PopularProducts />
+      <ProductArea />
+      <JewelryCollectionBanner />
+      <BestSellerPrd />
+      <JewelryBrands />
+      <InstagramAreaFour />
+      <Footer primary_style={true} />
     </Wrapper>
   )
 }

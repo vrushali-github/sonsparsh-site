@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
 // internal
 import Menus from './header-com/menus';
-import logo from '@assets/img/logo/logo.svg';
+import logo from '@assets/img/logo/logo.jpg';
 import useSticky from '@/hooks/use-sticky';
 import useCartInfo from '@/hooks/use-cart-info';
 import { openCartMini } from '@/redux/features/cartSlice';
@@ -31,24 +31,17 @@ const HeaderTwo = ({ style_2 = false }) => {
                 <div className="col-md-6">
                   <div className="tp-header-info d-flex align-items-center">
                     <div className="tp-header-info-item">
-                      <a href="#">
-                        <span>
-                          <Facebook />
-                        </span> 7500k Followers
-                      </a>
-                    </div>
-                    <div className="tp-header-info-item">
                       <a href="tel:402-763-282-46">
                         <span>
                           <PhoneTwo />
-                        </span> +(966) 595 035 008
+                        </span> +(91) 79 7799 0705
                       </a>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="tp-header-top-right tp-header-top-black d-flex align-items-center justify-content-end">
-                    <HeaderTopRight />
+
                   </div>
                 </div>
               </div>
@@ -62,7 +55,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                   <div className="col-xl-2 col-lg-5 col-md-5 col-sm-4 col-6">
                     <div className="logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" priority />
+                        <Image src={logo} alt="logo" priority width={50} />
                       </Link>
                     </div>
                   </div>
