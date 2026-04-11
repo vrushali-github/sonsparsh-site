@@ -17,18 +17,12 @@ import Link from 'next/link';
 
 // slider data 
 const slider_data = [
-  { subtitle: 'The original', title: 'Shine bright', img: slider_img_1 },
-  { subtitle: 'The original', title: 'Creative Design', img: slider_img_2 },
-  { subtitle: 'The original', title: 'Gold Plateted', img: slider_img_3 },
-  { subtitle: 'The original', title: 'Unique shapes', img: slider_img_4 },
+  { subtitle: 'Jewellery', title: 'Sonsparsh', img: slider_img_1 }
 ]
 
 // slider nav data
 const slider_nav_data = [
-  { icon: nav_icon_1, title: <>Ring <br />& Earring</> },
-  { icon: nav_icon_2, title: <>Bangles & <br />Bracelets</> },
-  { icon: nav_icon_3, title: <>Drop <br /> Necklaces</> },
-  { icon: nav_icon_4, title: <>Diamond <br /> Necklaces</> },
+  { icon: nav_icon_1, title: <> <br /></> }
 ]
 
 const JewelryBanner = () => {
@@ -77,7 +71,7 @@ const JewelryBanner = () => {
           {slider_data.map((item, i) => (
             <div key={i} className="tp-slider-item-4 tp-slider-height-4 p-relative khaki-bg d-flex align-items-center" >
               <div className="tp-slider-thumb-4">
-                <Image src={item.img} alt="slider img" />
+                <Image src={item.img} alt="slider img" width={590} />
                 <div className="tp-slider-thumb-4-shape">
                   <span className="tp-slider-thumb-4-shape-1"></span>
                   <span className="tp-slider-thumb-4-shape-2"></span>
@@ -85,14 +79,14 @@ const JewelryBanner = () => {
               </div>
 
               <div className="tp-slider-video-wrapper">
-                {/* <!-- video --> */}
+                {/* <!-- video --> 
                 <div className={`tp-slider-video transition-3 ${play?'full-width':''}`}>
 
                   <video loop>
                     <source type="video/mp4" src="http://weblearnbd.net/tphtml/videos/shofy/jewellery-1.mp4#t=3" />
                   </video>
                 </div>
-                {/* <!-- video button --> */}
+                {/* <!-- video button --> 
                 <div className="tp-slider-play">
 
                   <button onClick={handleToggle} type="button" className={`tp-slider-play-btn tp-slider-video-move-btn tp-video-toggle-btn ${play?'hide':''}`}>
@@ -104,7 +98,7 @@ const JewelryBanner = () => {
                       <Pause/>
                     </span>
                   </button>
-                </div>
+                </div> */}
               </div>
 
               <div className="container">
@@ -127,12 +121,12 @@ const JewelryBanner = () => {
         {/* arrow start */}
         <div className="tp-slider-arrow-4">
           <button className="tp-slider-3-button-prev slick-arrow" onClick={() => slider1?.slickPrev()}>
-            <ArrowPrevTwo/>
+            <ArrowPrevTwo />
           </button>
           <button className="tp-slider-3-button-next slick-arrow" onClick={() => slider1?.slickNext()}>
-            <ArrowNextTwo/>
+            <ArrowNextTwo />
           </button>
-          </div>
+        </div>
         {/* arrow end */}
 
         <div className="tp-slider-nav">

@@ -32,7 +32,7 @@ const HeaderFour = () => {
                 <div className="col-xl-2 col-lg-2 col-6">
                   <div className="logo">
                     <Link href="/">
-                      <Image className="logo-light" src={logo_logo} alt="logo" width={50} />
+                      <Image className="logo-light" src={logo_logo} alt="logo" width={70} />
                     </Link>
                   </div>
                 </div>
@@ -47,26 +47,27 @@ const HeaderFour = () => {
                   <div className="tp-header-action d-flex align-items-center justify-content-end ml-50">
 
                     <div className="tp-header-action-item d-none d-sm-block">
-                      <button onClick={() => setIsSearchOpen(true)} type="button" className="tp-header-action-btn tp-search-open-btn">
+
+                      {/* <button onClick={() => setIsSearchOpen(true)} type="button" className="tp-header-action-btn tp-search-open-btn">
                         <Search />
-                      </button>
+                      </button> */}
                     </div>
                     <div className="tp-header-action-item d-none d-sm-block">
-                      <Link href="/wishlist" className="tp-header-action-btn">
+                      {/* <Link href="/wishlist" className="tp-header-action-btn">
                         <Wishlist />
                         <span className="tp-header-action-badge">{wishlist.length}</span>
-                      </Link>
+                      </Link> */}
                     </div>
                     <div className="tp-header-action-item d-none d-sm-block">
-                      <button onClick={() => dispatch(openCartMini())} type="button" className="tp-header-action-btn cartmini-open-btn">
+                      {/* <button onClick={() => dispatch(openCartMini())} type="button" className="tp-header-action-btn cartmini-open-btn">
                         <CartTwo />
                         <span className="tp-header-action-badge">{quantity}</span>
-                      </button>
+                      </button> */}
                     </div>
                     <div className="tp-header-action-item d-lg-none">
-                      <button onClick={() => setIsCanvasOpen(true)} type="button" className="tp-offcanvas-open-btn">
+                      {/*  <button onClick={() => setIsCanvasOpen(true)} type="button" className="tp-offcanvas-open-btn">
                         <Menu />
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>
@@ -76,15 +77,15 @@ const HeaderFour = () => {
         </div>
       </header>
 
-      {/* search bar start */}
+      {/* search bar start 
       <SearchBar isSearchOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen} />
       {/* search bar end */}
 
-      {/* cart mini sidebar start */}
+      {/* cart mini sidebar start
       <CartMiniSidebar />
       {/* cart mini sidebar end */}
 
-      {/* off canvas start */}
+      {/* off canvas start 
       <OffCanvas isOffCanvasOpen={isOffCanvasOpen} setIsCanvasOpen={setIsCanvasOpen} categoryType="jewelry" />
       {/* off canvas end */}
     </>

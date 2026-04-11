@@ -55,7 +55,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                   <div className="col-xl-2 col-lg-5 col-md-5 col-sm-4 col-6">
                     <div className="logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" priority width={50} />
+                        <Image src={logo} alt="logo" priority width={80} />
                       </Link>
                     </div>
                   </div>
@@ -68,7 +68,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                   </div>
                   <div className="col-xl-5 col-lg-7 col-md-7 col-sm-8 col-6">
                     <div className="tp-header-bottom-right d-flex align-items-center justify-content-end pl-30">
-                      <div className="tp-header-search-2 d-none d-sm-block">
+                      {/*  <div className="tp-header-search-2 d-none d-sm-block">
                         <form onSubmit={handleSubmit}>
                           <input
                             onChange={(e) => setSearchText(e.target.value)}
@@ -79,7 +79,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                             <Search />
                           </button>
                         </form>
-                      </div>
+                      </div> 
                       <div className="tp-header-action d-flex align-items-center ml-30">
                         <div className="tp-header-action-item d-none d-lg-block">
                           <Link href="/compare" className="tp-header-action-btn">
@@ -103,7 +103,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                             <Menu />
                           </button>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

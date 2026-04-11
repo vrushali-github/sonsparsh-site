@@ -19,14 +19,14 @@ export default function Home() {
       <SEO pageTitle='Home' />
       <HeaderFour />
       <JewelryBanner />
-      <FeatureAreaThree />
+      { /* <FeatureAreaThree />
       <JewelryShopBanner />
       <JewelryAbout />
       <PopularProducts />
       <ProductArea />
       <JewelryCollectionBanner />
       <BestSellerPrd />
-      <JewelryBrands />
+      <JewelryBrands /> */}
       <InstagramAreaFour />
       <Footer primary_style={true} />
     </Wrapper>
