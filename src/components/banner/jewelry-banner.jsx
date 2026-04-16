@@ -66,12 +66,12 @@ const JewelryBanner = () => {
   };
   return (
     <>
-      <section className="tp-slider-area p-relative z-index-1 fix">
+      <section className="tp-slider-area p-relative z-index-1 fix w-100 m-0 p-0">
         <Slider {...main_slider_setting} asNavFor={slider2} ref={(slider) => setSlider1(slider)} className="tp-slider-active-4 khaki-bg">
           {slider_data.map((item, i) => (
             <div key={i} className="tp-slider-item-4 tp-slider-height-4 p-relative khaki-bg d-flex align-items-center" >
               <div className="tp-slider-thumb-4">
-                <Image src={item.img} alt="slider img" width={590} />
+                <Image src={item.img} alt="slider img" />
                 <div className="tp-slider-thumb-4-shape">
                   <span className="tp-slider-thumb-4-shape-1"></span>
                   <span className="tp-slider-thumb-4-shape-2"></span>
@@ -101,7 +101,7 @@ const JewelryBanner = () => {
                 </div> */}
               </div>
 
-              <div className="container">
+              {/* <div className="container">
                 <div className="row align-items-center">
                   <div className="col-xl-6 col-lg-6 col-md-8">
                     <div className="tp-slider-content-4 p-relative z-index-1">
@@ -113,7 +113,7 @@ const JewelryBanner = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           ))}
         </Slider>
@@ -134,11 +134,11 @@ const JewelryBanner = () => {
           <Slider {...nav_slider_setting} asNavFor={slider1} ref={(slider) => setSlider2(slider)} className="tp-slider-nav-active">
             {slider_nav_data.map((item, i) => (
               <div key={i} className="tp-slider-nav-item d-flex align-items-center">
-                <div className="tp-slider-nav-icon">
+                {/* <div className="tp-slider-nav-icon">
                   <span>
                     <Image src={item.icon} alt="icon" />
                   </span>
-                </div>
+                </div> */}
                 <div className="tp-slider-nav-content">
                   <h3 className="tp-slider-nav-title">{item.title}</h3>
                 </div>
