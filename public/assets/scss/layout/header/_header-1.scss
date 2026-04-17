@@ -360,3 +360,16 @@
         transform: translateY(-2px) translateX(1px);
     }
 }
+
+// Logo styles
+.logo {
+  svg {
+    width: 100%;
+    height: auto;
+    max-width: 135px;
+
+    @media #{$md, $sm, $xs} {
+      max-width: 80px;
+    }
+  }
+}

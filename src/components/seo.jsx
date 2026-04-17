@@ -20,6 +20,9 @@ const SEO = ({ pageTitle }) => (
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://sonsparsh.com" />
       <meta property="og:image" content="https://sonsparsh.com/og-image.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="628" />
+      <meta property="og:image:type" content="image/jpg" />
 
 
       <meta name="twitter:card" content="summary_large_image" />
@@ -36,7 +39,7 @@ const SEO = ({ pageTitle }) => (
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <link rel="icon" href="/favicon.png" />
+      <link rel="icon" href="/favicon.ico" />
     </Head>
   </>
 );
