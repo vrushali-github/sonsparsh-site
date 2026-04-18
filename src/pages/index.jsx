@@ -12,6 +12,7 @@ import JewelryBrands from '@/components/brand/jewelry-brands';
 import InstagramAreaFour from '@/components/instagram/instagram-area-4';
 import FeatureAreaThree from '@/components/features/feature-area-3';
 import Footer from "@/layout/footers/footer";
+import FooterTwo from "@/layout/footers/footer";
 
 export default function Home() {
   return (
