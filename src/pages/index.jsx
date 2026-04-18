@@ -19,16 +19,16 @@ export default function Home() {
       <SEO pageTitle='Home' />
       <HeaderFour />
       <JewelryBanner />
-      { /* <FeatureAreaThree />
-      <JewelryShopBanner />
-      <JewelryAbout />
-      <PopularProducts />
-      <ProductArea />
-      <JewelryCollectionBanner />
-      <BestSellerPrd />
-      <JewelryBrands /> */}
+      {/*  <FeatureAreaThree />
+      <JewelryShopBanner/>
+      <JewelryAbout/>
+      <PopularProducts/>
+      <ProductArea/>
+      <JewelryCollectionBanner/>
+      <BestSellerPrd/>
+      <JewelryBrands/> */}
       <InstagramAreaFour />
-      <Footer primary_style={true} />
+      <FooterTwo />
     </Wrapper>
   )
 }

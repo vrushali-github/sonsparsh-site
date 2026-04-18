@@ -13,26 +13,17 @@ const SEO = ({ pageTitle }) => (
       <meta name="author" content="Sonsparsh Jewellery" />
 
       <meta name="robots" content="index, follow" />
-
-
       <meta property="og:title" content="Sonsparsh Jewellery | Best 1 Gram Gold Jewellery Shop in Kamothe" />
       <meta property="og:description" content="Shop latest imitation jewellery in Kamothe at Sonsparsh. Stylish mangalsutra, bangles & more at affordable prices." />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://sonsparsh.com" />
       <meta property="og:image" content="https://sonsparsh.com/og-image.jpg" />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="628" />
-      <meta property="og:image:type" content="image/jpg" />
 
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Sonsparsh Jewellery Kamothe" />
       <meta name="twitter:description" content="Best 1 gram gold & imitation jewellery in Kamothe. Shop now!" />
       <meta name="twitter:image" content="https://sonsparsh.com/og-image.jpg" />
-
-
-
-
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
 
       <meta
